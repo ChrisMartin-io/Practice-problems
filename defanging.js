@@ -7,6 +7,7 @@
  https://leetcode.com/problems/defanging-an-ip-address/
  */
 
+var address = "1.1.1.1";
  
 var defangIPaddr = function(address) {
   let result = '';
@@ -19,3 +20,5 @@ var defangIPaddr = function(address) {
   }
   return result;
 };
+
+console.log(defangIPaddr);
